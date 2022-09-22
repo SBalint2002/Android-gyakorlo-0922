@@ -10,7 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:id="@+id/szoveg"/>
+        android:id="@+id/szoveg"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -37,8 +39,12 @@
         android:text="Véletlen szín generálása"/>
 
     <TextView
+        android:id="@+id/kiir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/veletlen"/>
+        android:layout_below="@+id/veletlen"
+        android:height="30dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
 </RelativeLayout>
